@@ -1,4 +1,7 @@
 # daria
 Daria Learn Package
 
-nowy komentarz
+Update 26.06.2017 11:54 - nowe strony do nauki HTML i CSS (w PL)
+http://www.kurshtml.edu.pl/
+http://how2html.pl/
+http://how2html.pl/

@@ -5,15 +5,16 @@
     padding: 0;
 }
 body {
-    background-color: gray;
+    background-color: #404040;
     /*border: 5px solid #99976f;*/
     color: white;
-    font-family: Verdana;
+    font-family: 'PT Sans', sans-serif;
     font-size: 20px;
 }
 h1{
-    font-size: 30px;
-    color: green;
+    font-size: 40px;
+    font-weight: 700;
+    color: #128870;
 }
 /*Nieodwiedzony link*/
 a:link{
@@ -31,6 +32,7 @@ a:hover{
     height: 100%;
     width: 100%;
 }
+/*w tym wypaku niepotrzebny zapis, gdyż koniec zawarty w footer*/
 #container:after {
     clear: both;
     content: "";
@@ -38,8 +40,41 @@ a:hover{
 }
 #logo {
     background-color: yellow;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    opacity: 0.8;
     padding: 20px;
     text-align: center;
+}
+#menu {
+    background-color: #303030;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 10px;
+}
+#topbar {
+    background-color: #128870;
+    color: #ffffff;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+#topbarL {
+    border-right: 2px dotted #cccccc;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 160px;
+}
+#topbarR {
+    float: left;
+    font-size: 25px;
+    padding: 20px;
+    text-align: justify;
+}
+#topbar:after {
+    clear: both;
 }
 #nav {
     background-color: #cccccc;
@@ -71,4 +106,18 @@ a:hover{
     color: black;
     font-size: 14px;
     height: 100px;
+}
+.option {
+    border-right: 2px dotted #444444;
+    float: left;
+    font-size: 18px;
+    height: 25px;
+    min-width: 100px;
+    opacity: 0.8;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.option:hover {
+    background-color: #000000;
+    cursor: pointer;
 }
